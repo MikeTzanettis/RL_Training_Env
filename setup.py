@@ -1,0 +1,15 @@
+from setuptools import setup
+
+setup(
+    name='autoscaling_gym',
+    version='0.0.1',
+    install_requires=[
+        'gym==0.23.0',
+        'kubernetes==v26.1.0',
+        'setuptools==68.0.0',
+        'PyYAML==6.0',
+        'requests==2.31.0',
+        'urllib3==2.0.3',
+        'statsmodels==0.14.0'
+    ]
+)
