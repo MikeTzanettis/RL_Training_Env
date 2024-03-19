@@ -1,5 +1,5 @@
 import json
-latency_data = 'json_data.json'
+latency_data = 'simulated_metrics.json'
 min_value = 100
 permutation = '0-0-0'
 with open(latency_data, 'r') as json_file:
@@ -20,5 +20,5 @@ with open(latency_data, 'r') as json_file:
     new_json = json.dumps(new_data, indent=4)
 
     # Write the new JSON data to a file
-    with open("new_data.json", "w") as outfile:
+    with open("timesteps.json", "w") as outfile:
         outfile.write(new_json)
